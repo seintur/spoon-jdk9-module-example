@@ -1,4 +1,7 @@
 # spoon-jdk9-module-example
+
+Fixed by https://github.com/INRIA/spoon/pull/1996
+
 Illustrate an ClassNotFoundException when using Spoon 6.3.0-SNAPSHOT from a Java 9 project with modules.
 
 In a nutshell, the project defines:
