@@ -35,7 +35,7 @@ Caused by: java.lang.ClassNotFoundException: spoon.core@6.3.0-SNAPSHOT/spoon.ref
 	... 9 more
 [ERROR] Command execution failed.
 
-The failure originates from Class.forName that is used in spoon.reflect.visitor.chain.CtQueryImpl.detectTargetClassFromCCE(CtQueryImpl.java:614). Since this is a modularized project the class cannot be load from the usual classpath (hence the exception), but from the module path.
+The failure originates from Class.forName that is used in spoon.reflect.visitor.chain.CtQueryImpl.detectTargetClassFromCCE(CtQueryImpl.java:614). Since this is a modularized project the class cannot be loaded from the usual classpath (hence the exception), but from the module path.
 
 (note: Class.forName is used in several other locations in Spoon)
 
